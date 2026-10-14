@@ -1,8 +1,13 @@
-# BE Group — commercial analytics
+# BE Group — marketing channel economics and promotion unit economics
 
-Marketing channel economics, promotion unit economics and brand-level take rate
-for a Vietnamese mobility and delivery platform, rebuilt from the operating
-workbooks into a reproducible pipeline.
+Channel P&L, promotion margin and brand-level take rate for a Vietnamese
+mobility and delivery platform, rebuilt from the operating workbooks into a
+reproducible pipeline with its own checks.
+
+*Originally a business-analysis exercise answered in Excel. The three reports
+that were submitted are described in
+[`docs/original_submission.md`](docs/original_submission.md); they are not
+published here, because they quote real figures.*
 
 > ### Every number in this repository is indexed. None of them is real.
 >
@@ -206,9 +211,11 @@ be_group_commercial/
 │   ├── private/             # tidy tables, real values     (git-ignored)
 │   └── published/           # indexed outputs              (committed)
 ├── docs/
-│   ├── data_dictionary.md   # every abbreviation, and which ones I inferred
-│   ├── assumptions.md       # every input the payback model could not measure
-│   └── measurement_design.md# how BE should measure channel incrementality
+│   ├── data_dictionary.md    # every abbreviation, and which ones I inferred
+│   ├── assumptions.md        # every input the payback model could not measure
+│   ├── measurement_design.md # how BE should measure channel incrementality
+│   └── original_submission.md# what was delivered to BE, and why it is not here
+├── private_review/           # the original reports, real figures  (git-ignored)
 ├── notebooks/
 │   └── 00_walkthrough.ipynb # the whole project, top to bottom
 └── artifacts/
