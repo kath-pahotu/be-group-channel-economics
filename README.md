@@ -20,11 +20,20 @@ published here, because they quote real figures.*
 > conversion, retention — are multiplied by one undisclosed constant per metric
 > family.
 >
-> Both transforms preserve every conclusion exactly: growth rates, shares,
-> rankings, and the day a margin crosses zero are all unchanged. Only the levels
-> are hidden. See [`src/publish_indexed.py`](src/publish_indexed.py) for the
-> method and [`data/published/README.md`](data/published/README.md) for the rule
-> applied to each column.
+> **Hidden** — every currency amount, every count, and every rate as a level:
+> GMV, spend, budget, commission, discount, users, installs, orders, merchants,
+> CAC, CIR, take rate, margin rate, retention.
+>
+> **Still real, deliberately** — shares and mixes, ratios between two indexed
+> figures, rankings, counts of things rather than of money (54 weeks checked,
+> 7 brands negative, 8 of 8 days loss-making), and rates of change in percentage
+> points. Without those there is no analysis left to read.
+>
+> So a reader can learn that one channel delivers two thirds of acquisition at a
+> fraction of the cost of another. They cannot learn what either cost. See
+> [`src/publish_indexed.py`](src/publish_indexed.py) for the method and
+> [`data/published/README.md`](data/published/README.md) for the rule applied to
+> each column.
 
 ---
 
