@@ -1,0 +1,7 @@
+channel,cac_index,first_trip_users_index,gmv_per_user_window_index,assumed_m1_retention_index,assumed_margin_rate,assumed_trips_per_month,assumed_average_fare,monthly_contribution_index,payback_months_no_churn,payback_months_with_churn
+Others,0.0,4.43,140.16,61.432,0.04,4.0,11.0,100.0,0.0,0.0
+Affiliate,337.613,399.83,193.43,61.432,0.04,4.0,11.0,100.0,0.8995764053643379,2.6329065522858675
+Tiktok,806.78,5.05,71.3,61.432,0.04,4.0,11.0,100.0,2.1496804987840843,6.291747801319272
+Apple Search Ads,859.988,68.45,47.2,61.432,0.04,4.0,11.0,100.0,2.2914547386717805,6.70669679611253
+Google Ads,984.154,55.46,61.08,61.432,0.04,4.0,11.0,100.0,2.622296728856337,7.6750148161648895
+Facebook Ads,1058.073,66.79,86.84,61.432,0.04,4.0,11.0,100.0,2.819254519236225,8.251476641667

@@ -1,0 +1,32 @@
+# ---------------------------------------------------------------------------
+# BE Group commercial analytics — repository hygiene
+#
+# Rule: the real numbers never leave this machine. Only data/published/ is
+# committed, and every numeric column in it has been indexed or scaled.
+# ---------------------------------------------------------------------------
+
+# The source workbooks, exactly as handed over. Never committed.
+data/source/
+
+# Tidy tables carrying real values.
+data/private/
+
+# The warehouse, rebuilt from source by the pipeline.
+artifacts/*.duckdb
+artifacts/*.duckdb.wal
+
+# Local environment
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+
+# ---------------------------------------------------------------------------
+# Explicitly COMMITTED:
+#   data/published/   every mart, indexed — the readable version
+#   src/              the whole pipeline
+#   notebooks/        the executed walkthrough
+#   docs/             dictionary, assumptions, measurement design
+#   artifacts/figures/
+# ---------------------------------------------------------------------------
